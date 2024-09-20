@@ -23,7 +23,7 @@ void draw_xy(int x, int y, unsigned char r, unsigned char g, unsigned char b) {
 union RGBA_Pixel {
   int pixel; // 4 bytes
   unsigned char rgba[4]; // 4 bytes
-  scruct rgba {
+  scruct rgba; {
     unsiged char r;  
     
   }
